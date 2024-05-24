@@ -47,9 +47,22 @@ namespace vili
             }
 
             
+            /* binaris váltás
+            int szam = Convert.ToInt32(textBox1.Text);
+            string kesz = "";
+            int szamrendszer = 2;
+            while (szam > 0)
+            {
+                kesz += szam % szamrendszer;
+                szam = szam / szamrendszer;
+            }
 
+            char[] stringArray = kesz.ToCharArray();
+            Array.Reverse(stringArray);
+            string reversedStr = new string(stringArray);
 
-
+            label1.Text = reversedStr + ", " + kesz;
+            */
 
             /*
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
